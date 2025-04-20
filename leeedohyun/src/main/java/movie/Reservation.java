@@ -2,7 +2,7 @@ package movie;
 
 public class Reservation {
 
-    private Customeer customer;
+    private Customer customer;
     private Screening screening;
     private Money fee;
     private int audienceCount;

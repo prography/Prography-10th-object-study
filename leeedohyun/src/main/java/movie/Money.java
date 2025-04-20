@@ -1,6 +1,7 @@
 package movie;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class Money {
 
@@ -38,5 +39,25 @@ public class Money {
 
     public boolean isGreaterThanOrEqual(Money other) {
         return this.amount.compareTo(other.amount) >= 0;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Money money)) {
+            return false;
+        }
+        return this.amount.compareTo(money.amount) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(amount);
+    }
+
+    @Override
+    public String toString() {
+        return "Money{" +
+                "amount=" + amount +
+                '}';
     }
 }

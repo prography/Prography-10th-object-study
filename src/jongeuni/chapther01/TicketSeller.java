@@ -1,5 +1,6 @@
 package jongeuni.chapther01;
 
+// 외부에서 ticket office 접근 불가
 public class TicketSeller {
     private TicketOffice ticketOffice;
 
@@ -7,7 +8,7 @@ public class TicketSeller {
         this.ticketOffice = ticketOffice;
     }
 
-    public TicketOffice getTicketOffice() {
-        return ticketOffice;
+    public void sellTo(Audience audience) {
+        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
     }
 }

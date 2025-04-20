@@ -1,0 +1,41 @@
+package movie;
+
+import java.time.Duration;
+import java.time.LocalDateTime;
+
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+class DiscountPolicyTest {
+
+    @Test
+    void 금액_할인_정책을_적용한다() {
+        // given
+        SequenceCondition sequenceCondition = new SequenceCondition(10);
+        DiscountPolicy discountPolicy = new AmountDiscountPolicy(Money.wons(1000), sequenceCondition);
+        Movie movie = new Movie("아바타", Duration.ofMinutes(100), Money.wons(10000), discountPolicy);
+        Screening screening = new Screening(movie, 10, LocalDateTime.of(2025, 4, 21, 10, 0));
+
+        // when
+        Money money = discountPolicy.calculateDiscountAmount(screening);
+
+        // then
+        assertThat(money).isEqualTo(Money.wons(1000));
+    }
+
+    @Test
+    void 비율_할인_정책을_적용한다() {
+        // given
+        SequenceCondition sequenceCondition = new SequenceCondition(2);
+        DiscountPolicy discountPolicy = new PercentDiscountPolicy(0.1, sequenceCondition);
+        Movie movie = new Movie("타이타닉", Duration.ofMinutes(100), Money.wons(10000), discountPolicy);
+        Screening screening = new Screening(movie, 2, LocalDateTime.of(2025, 4, 21, 10, 0));
+
+        // when
+        Money money = discountPolicy.calculateDiscountAmount(screening);
+
+        // then
+        assertThat(money).isEqualTo(Money.wons(1000));
+    }
+}

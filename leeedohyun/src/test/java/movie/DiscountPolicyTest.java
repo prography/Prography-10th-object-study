@@ -38,4 +38,18 @@ class DiscountPolicyTest {
         // then
         assertThat(money).isEqualTo(Money.wons(1000));
     }
+
+    @Test
+    void 할인_정책을_적용하지_않는다() {
+        // given
+        DiscountPolicy discountPolicy = new NoneDiscountPolicy();
+        Movie movie = new Movie("스타워즈", Duration.ofMinutes(100), Money.wons(10000), discountPolicy);
+        Screening screening = new Screening(movie, 2, LocalDateTime.of(2025, 4, 21, 10, 0));
+
+        // when
+        Money money = discountPolicy.calculateDiscountAmount(screening);
+
+        // then
+        assertThat(money).isEqualTo(Money.wons(0));
+    }
 }

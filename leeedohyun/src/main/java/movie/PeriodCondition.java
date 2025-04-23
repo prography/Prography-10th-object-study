@@ -18,7 +18,7 @@ public class PeriodCondition implements DisCountCondition {
     @Override
     public boolean isSatisfiedBy(Screening screening) {
         return screening.getStartTime().getDayOfWeek().equals(dayOfWeek) &&
-                startTime.compareTo(screening.getStartTime().toLocalTime()) <= 0 &&
-                endTime.compareTo(screening.getStartTime().toLocalTime()) >= 0;
+                !startTime.isAfter(screening.getStartTime().toLocalTime()) &&              // startTime <= screeningTime
+                !endTime.isBefore(screening.getStartTime().toLocalTime());
     }
 }

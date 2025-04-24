@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1d95139-9a13-423d-89fa-2c1675e76a76" name="변경" comment="add: readme 추가" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jongeuni&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/prography/Prography-10th-object-study.git&quot;,
+    &quot;accountId&quot;: &quot;c5a0a137-55b2-496b-8ab8-340685139d28&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vzfIx0fnXXI3iqPTiKkyO0EjMG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.TheaterTest.theater.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lje/Documents/code/스터디/Prography-10th-object-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/lje/Documents/code/스터디/Prography-10th-object-study/object/src/Main.java",
+    "project.structure.last.edited": "라이브러리",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Main.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jongeuni.chapther02.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TheaterTest.theater">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="object" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheaterTest.theater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="object" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jongeuni.chapther01.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jongeuni.chapther01.test" />
+      <option name="MAIN_CLASS_NAME" value="jongeuni.chapther01.test.TheaterTest" />
+      <option name="METHOD_NAME" value="theater" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TheaterTest.theater" />
+        <item itemvalue="애플리케이션.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="b1d95139-9a13-423d-89fa-2c1675e76a76" name="변경" comment="" />
+      <created>1745152750699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745152750699</updated>
+      <workItem from="1745152751630" duration="367000" />
+      <workItem from="1745153281050" duration="21184000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1745152836404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745152836404</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1745153296894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745153296894</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete">
+      <option name="closed" value="true" />
+      <created>1745153334551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745153334551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add: 티켓 애플리케이션 구현">
+      <option name="closed" value="true" />
+      <created>1745154796795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745154796795</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: 설개 개선하기 - theater와 ticketOffice, theater와 bag간의 의존성 제거">
+      <option name="closed" value="true" />
+      <created>1745157617308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745157617308</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: 설개 더 개선하기 - bag와 ticket office의 자율성">
+      <option name="closed" value="true" />
+      <created>1745158340553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745158340553</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: TicketOffice의 자율성 빼앗기">
+      <option name="closed" value="true" />
+      <created>1745158649752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745158649752</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add: 챕터 01 md 파일 추가">
+      <option name="closed" value="true" />
+      <created>1745159527896</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745159527896</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add: 영화 예매 시스템 구현">
+      <option name="closed" value="true" />
+      <created>1745242897630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745242897630</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add: 영화 할인 조건이 없을 경우">
+      <option name="closed" value="true" />
+      <created>1745285008659</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745285008659</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: NoneDiscountPolicy에 대한 개념적 혼란 제거">
+      <option name="closed" value="true" />
+      <created>1745285307130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745285307130</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add: Movie에 DiscountPolicy 변경할 수 있는 메서드 추가">
+      <option name="closed" value="true" />
+      <created>1745286883669</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745286883669</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add: readme 추가">
+      <option name="closed" value="true" />
+      <created>1745287648003</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745287648003</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="delete" />
+    <MESSAGE value="add: 티켓 애플리케이션 구현" />
+    <MESSAGE value="fix: 설개 개선하기 - theater와 ticketOffice, theater와 bag간의 의존성 제거" />
+    <MESSAGE value="fix: 설개 더 개선하기 - bag와 ticket office의 자율성" />
+    <MESSAGE value="fix: TicketOffice의 자율성 빼앗기" />
+    <MESSAGE value="add: 챕터 01 md 파일 추가" />
+    <MESSAGE value="add: 영화 예매 시스템 구현" />
+    <MESSAGE value="add: 영화 할인 조건이 없을 경우" />
+    <MESSAGE value="fix: NoneDiscountPolicy에 대한 개념적 혼란 제거" />
+    <MESSAGE value="add: Movie에 DiscountPolicy 변경할 수 있는 메서드 추가" />
+    <MESSAGE value="add: readme 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: readme 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

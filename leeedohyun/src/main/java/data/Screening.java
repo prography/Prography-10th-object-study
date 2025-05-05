@@ -27,6 +27,7 @@ public class Screening {
                 if (movie.isDiscountable(whenScreened, sequence)) {
                     return movie.calculatePercentDiscountedFee().times(audienceCount);
                 }
+                break;
             case NONE_DISCOUNT:
                 return movie.calculateNoneDiscountedFee().times(audienceCount);
         }

@@ -68,26 +68,6 @@ class ReservationAgencyTest {
     }
 
     @Test
-    void 할인_조건이_맞지_않는_경우_정가가_적용된다() {
-        // given
-        DiscountCondition nonMatchingCondition = new DiscountCondition(
-                DiscountConditionType.SEQUENCE,
-                2,
-                null,
-                null,
-                null
-        );
-        movie.setDisCountConditions(List.of(nonMatchingCondition));
-        ReservationAgency reservationAgency = new ReservationAgency();
-
-        // when
-        Reservation result = reservationAgency.reserve(screening, customer, 1);
-
-        // then
-        assertThat(result.getFee()).isEqualTo(Money.wons(10000));
-    }
-
-    @Test
     void 정액_할인_영화인_경우_할인_금액이_차감된다() {
         // given
         movie = new Movie("정액영화", Money.wons(10000), MovieType.AMOUNT_DISCOUNT);

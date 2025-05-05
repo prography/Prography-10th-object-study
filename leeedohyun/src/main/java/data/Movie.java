@@ -16,6 +16,12 @@ public class Movie {
     private Money discountAmount;
     private double discountPercent;
 
+    public Movie(String title, Money fee, MovieType movieType) {
+        this.title = title;
+        this.fee = fee;
+        this.movieType = movieType;
+    }
+
     public Money getFee() {
         return fee;
     }

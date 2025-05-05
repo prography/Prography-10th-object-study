@@ -3,7 +3,6 @@ package data;
 import java.time.Duration;
 import java.util.List;
 
-import movie.DisCountCondition;
 import movie.Money;
 
 public class Movie {
@@ -11,7 +10,7 @@ public class Movie {
     private String title;
     private Duration runningTime;
     private Money fee;
-    private List<DisCountCondition> disCountConditions;
+    private List<DiscountCondition> disCountConditions;
 
     private MovieType movieType;
     private Money discountAmount;
@@ -25,11 +24,11 @@ public class Movie {
         this.fee = fee;
     }
 
-    public List<DisCountCondition> getDisCountConditions() {
+    public List<DiscountCondition> getDisCountConditions() {
         return disCountConditions;
     }
 
-    public void setDisCountConditions(List<DisCountCondition> disCountConditions) {
+    public void setDisCountConditions(List<DiscountCondition> disCountConditions) {
         this.disCountConditions = disCountConditions;
     }
 

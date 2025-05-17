@@ -1,6 +1,6 @@
 package responsibility;
 
-public class SequenceCondition {
+public class SequenceCondition implements DiscountCondition {
 
     private int sequence;
 
@@ -8,6 +8,7 @@ public class SequenceCondition {
         this.sequence = sequence;
     }
 
+    @Override
     public boolean isSatisfiedBy(Screening screening) {
         return screening.getSequence() == sequence;
     }

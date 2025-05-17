@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import movie.Money;
+import common.Money;
 
 public class Movie {
 

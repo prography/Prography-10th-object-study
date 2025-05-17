@@ -3,7 +3,7 @@ package responsibility;
 import java.time.Duration;
 import java.util.List;
 
-import movie.Money;
+import common.Money;
 
 public abstract class Movie {
     

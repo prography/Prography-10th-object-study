@@ -2,7 +2,7 @@ package data;
 
 import java.time.LocalDateTime;
 
-import movie.Money;
+import common.Money;
 
 public class Screening {
 

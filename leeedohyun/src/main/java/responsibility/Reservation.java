@@ -1,6 +1,6 @@
 package responsibility;
 
-import movie.Money;
+import common.Money;
 
 public class Reservation {
 

@@ -1,4 +1,4 @@
-package movie;
+package common;
 
 import java.math.BigDecimal;
 import java.util.Objects;

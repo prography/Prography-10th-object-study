@@ -1,5 +1,7 @@
 package movie;
 
+import common.Money;
+
 public class Reservation {
 
     private Customer customer;

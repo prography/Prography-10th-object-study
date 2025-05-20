@@ -2,6 +2,8 @@ package movie;
 
 import java.time.Duration;
 
+import common.Money;
+
 public class Movie {
 
     private String title;

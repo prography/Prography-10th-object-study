@@ -1,6 +1,6 @@
 package data;
 
-import movie.Money;
+import common.Money;
 
 public class ReservationAgency {
 

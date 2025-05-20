@@ -2,6 +2,8 @@ package movie;
 
 import java.time.LocalDateTime;
 
+import common.Money;
+
 public class Screening {
 
     private Movie movie;

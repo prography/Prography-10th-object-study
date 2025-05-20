@@ -1,4 +1,4 @@
-package movie;
+package responsibility;
 
 import common.Money;
 

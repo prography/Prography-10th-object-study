@@ -4,12 +4,12 @@ import common.Money;
 
 public class Reservation {
 
-    private data.Customer customer;
-    private data.Screening screening;
+    private Customer customer;
+    private Screening screening;
     private Money fee;
     private int audienceCount;
 
-    public Reservation(data.Customer customer, data.Screening screening, Money fee, int audienceCount) {
+    public Reservation(Customer customer, Screening screening, Money fee, int audienceCount) {
         this.customer = customer;
         this.screening = screening;
         this.fee = fee;

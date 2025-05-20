@@ -26,18 +26,17 @@ class EventTest {
     }
 
     @Test
-    void isSatisfied_메서드를_두_번_호출하면_버그가_발생한다() {
+    void 스케줄을_재조정한다() {
         // given
         RecurringSchedule schedule = new RecurringSchedule("회의", DayOfWeek.TUESDAY, LocalTime.of(10, 30),
                 Duration.ofMillis(30));
         Event meeting = new Event("회의", LocalDateTime.of(2025, 5, 21, 10, 30), Duration.ofMillis(30));
 
         // when
-        boolean result1 = meeting.isSatisfied(schedule);
-        boolean result2 = meeting.isSatisfied(schedule);
+        meeting.reschedule(schedule);
 
         // then
-        assertThat(result1).isFalse();
-        assertThat(result2).isTrue();
+        assertThat(meeting.getFrom()).isEqualTo(LocalDateTime.of(2025, 5, 20, 10, 30));
+        assertThat(meeting.getDuration()).isEqualTo(Duration.ofMillis(30));
     }
 }

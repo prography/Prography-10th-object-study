@@ -1,4 +1,4 @@
-package jongeuni.chapther0304;
+package jongeuni.chapther03_04;
 
 // 제어 객체 - 다른 객체와 결합도가 무척 높다
 /*

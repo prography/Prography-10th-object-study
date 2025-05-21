@@ -1,4 +1,4 @@
-package jongeuni.chapther0304;
+package jongeuni.chapther03_04;
 
 public enum DiscountConditionType {
     SEQUENCE,

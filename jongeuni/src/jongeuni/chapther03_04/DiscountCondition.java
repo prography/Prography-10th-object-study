@@ -1,4 +1,4 @@
-package jongeuni.chapther0304;
+package jongeuni.chapther03_04;
 
 import lombok.Getter;
 import lombok.Setter;

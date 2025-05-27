@@ -8,7 +8,7 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import movie.Money;
+import common.Money;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -7,6 +7,8 @@ import java.time.LocalTime;
 
 import org.junit.jupiter.api.Test;
 
+import common.Money;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PeriodConditionTest {

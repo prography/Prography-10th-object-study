@@ -4,11 +4,11 @@ import java.time.Duration;
 
 import common.Money;
 
-public class RegularPhone extends Phone {
+public class RegularPolicy extends BasicRatePolicy {
     private Money amount;
     private Duration seconds;
 
-    public RegularPhone(Money amount, Duration seconds) {
+    public RegularPolicy(Money amount, Duration seconds) {
         this.amount = amount;
         this.seconds = seconds;
     }

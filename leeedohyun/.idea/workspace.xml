@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caaa44b6-e34c-415c-a44d-7c757e5b44c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/call/BasicRatePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/BasicRatePolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/call/NightlyDiscountPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/NightlyDiscountPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/call/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/call/RegularPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/RegularPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/call/TaxableNightlyPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/TaxableNightlyPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -241,7 +240,7 @@
       <workItem from="1749001904142" duration="1000" />
       <workItem from="1749029502572" duration="11766000" />
       <workItem from="1750164094740" duration="4635000" />
-      <workItem from="1752389100414" duration="1345000" />
+      <workItem from="1752389100414" duration="2078000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="caaa44b6-e34c-415c-a44d-7c757e5b44c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/call/NightlyDiscountPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/NightlyDiscountPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/call/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/call/RegularPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/RegularPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/call/TaxableNightlyPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/TaxableNightlyPhone.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;leeedohyun&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="leeedohyun" />
+                    <option name="lastUsedInstant" value="1745590748" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/prography/Prography-10th-object-study.git&quot;,
+    &quot;accountId&quot;: &quot;771fe8c7-f195-4ec8-aba6-cc7ad76ccc72&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2wDwySPSWVnpSJNz4JW4z5QdzGb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in object.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountConditionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountPolicyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EventTest.isSatisfied_메서드를_두_번_호출하면_버그가_발생한다.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EventTest.스케줄을.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EventTest.이벤트가_일정_조건을_만족하는지_확인한다.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieTest.영화_요금을_계산한다.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReservationAgencyTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;leeedohyun&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/idohyeon/study/Prography-10th-object-study/leeedohyun&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.ignored.files&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="responsibility" />
+      <recent name="data" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="commandquery" />
+      <recent name="data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="call" />
+      <recent name="data_refactoring" />
+      <recent name="responsibility" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EventTest.스케줄을">
+    <configuration name="All in object.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="object.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventTest.스케줄을" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="object.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commandquery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="commandquery" />
+      <option name="MAIN_CLASS_NAME" value="commandquery.EventTest" />
+      <option name="METHOD_NAME" value="스케줄을" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventTest.이벤트가_일정_조건을_만족하는지_확인한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="object.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commandquery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="commandquery" />
+      <option name="MAIN_CLASS_NAME" value="commandquery.EventTest" />
+      <option name="METHOD_NAME" value="이벤트가_일정_조건을_만족하는지_확인한다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventTest.isSatisfied_메서드를_두_번_호출하면_버그가_발생한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="object.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commandquery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="commandquery" />
+      <option name="MAIN_CLASS_NAME" value="commandquery.EventTest" />
+      <option name="METHOD_NAME" value="isSatisfied_메서드를_두_번_호출하면_버그가_발생한다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationAgencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="object.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.ReservationAgencyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EventTest.스케줄을" />
+        <item itemvalue="JUnit.EventTest.isSatisfied_메서드를_두_번_호출하면_버그가_발생한다" />
+        <item itemvalue="JUnit.EventTest.이벤트가_일정_조건을_만족하는지_확인한다" />
+        <item itemvalue="JUnit.All in object.test" />
+        <item itemvalue="JUnit.ReservationAgencyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caaa44b6-e34c-415c-a44d-7c757e5b44c9" name="Changes" comment="" />
+      <created>1745589708198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745589708198</updated>
+      <workItem from="1745589709549" duration="636000" />
+      <workItem from="1745590358991" duration="371000" />
+      <workItem from="1745590735747" duration="1330000" />
+      <workItem from="1745592158948" duration="13000" />
+      <workItem from="1745592195338" duration="148000" />
+      <workItem from="1746270757337" duration="3285000" />
+      <workItem from="1746429254567" duration="7845000" />
+      <workItem from="1746446351236" duration="888000" />
+      <workItem from="1746516258480" duration="279000" />
+      <workItem from="1747461530444" duration="5966000" />
+      <workItem from="1747660423281" duration="713000" />
+      <workItem from="1747742292000" duration="2442000" />
+      <workItem from="1748927873431" duration="1787000" />
+      <workItem from="1748949805717" duration="3103000" />
+      <workItem from="1749001904142" duration="1000" />
+      <workItem from="1749029502572" duration="11766000" />
+      <workItem from="1750164094740" duration="4635000" />
+      <workItem from="1752389100414" duration="1345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="leeedohyun" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 데이터 중심 할인 조건 설계" />
+    <MESSAGE value="feat: 데이터 중심 할인 조건 설계" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 데이터 중심 할인 조건 설계" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

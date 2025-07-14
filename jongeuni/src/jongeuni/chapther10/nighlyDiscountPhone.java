@@ -10,6 +10,7 @@ import lombok.Getter;
 public class nighlyDiscountPhone {
     private static final int LATE_NIGHT_HOUR = 22;
 
+    private double taxRate;
     private Money nightlyAmount;
     private Money regularAmount;
     private Duration seconds;
@@ -37,6 +38,6 @@ public class nighlyDiscountPhone {
 
         }
 
-        return result;
+        return result.plus(result.times(taxRate));
     }
 }

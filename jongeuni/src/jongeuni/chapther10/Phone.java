@@ -10,6 +10,7 @@ import lombok.Getter;
 public class Phone {
     private Money amount;
     private Duration seconds;
+    private double taxRate;
     private List<Call> calls = new ArrayList<Call>();
 
     public Phone(Money amount, Duration seconds) {
@@ -28,6 +29,6 @@ public class Phone {
             result = result.plus(amount.times(call.getDuration().getSeconds() / seconds.getSeconds()));
         }
 
-        return result;
+        return result.plus(result.times(taxRate));
     }
 }

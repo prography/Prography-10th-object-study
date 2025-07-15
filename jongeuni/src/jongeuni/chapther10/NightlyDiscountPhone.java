@@ -7,13 +7,12 @@ import jongeuni.chapther02.Money;
 import lombok.Getter;
 
 @Getter
-public class NightlyDiscountPhone {
+public class NightlyDiscountPhone extends AbstractPhone {
     private static final int LATE_NIGHT_HOUR = 22;
 
     private Money nightlyAmount;
     private Money regularAmount;
     private Duration seconds;
-    private List<Call> calls = new ArrayList<>();
 
 
     public NightlyDiscountPhone(Money nightlyAmount, Money regularAmount, Duration seconds) {
@@ -22,18 +21,8 @@ public class NightlyDiscountPhone {
         this.seconds = seconds;
     }
 
-    public Money calculateFee() {
-
-        Money result = Money.ZERO;
-
-        for(Call call : getCalls()) {
-            result = result.plus(calculateCallFee(call));
-        }
-
-        return result;
-    }
-
-    private Money calculateCallFee(Call call) {
+    @Override
+    protected Money calculateCallFee(Call call) {
         if (call.getFrom().getHour() >= LATE_NIGHT_HOUR) {
             return nightlyAmount.times(call.getDuration().getSeconds() / getSeconds().getSeconds());
         } else {

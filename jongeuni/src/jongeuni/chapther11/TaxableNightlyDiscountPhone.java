@@ -3,12 +3,12 @@ package jongeuni.chapther11;
 import java.time.Duration;
 import jongeuni.chapther02.Money;
 
-public class TaxableRegularPhone extends RegularPhone {
+public class TaxableNightlyDiscountPhone extends NightlyDiscountPhone {
     private double taxRate;
 
-    public TaxableRegularPhone(Money amount, Duration seconds,
+    public TaxableNightlyDiscountPhone(Money nightlyAmount,Money regularAmount, Duration seconds,
             double taxRate) {
-        super(amount, seconds);
+        super(nightlyAmount, regularAmount, seconds);
         this.taxRate = taxRate;
     }
 

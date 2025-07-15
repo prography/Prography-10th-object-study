@@ -27,9 +27,4 @@ public class NightlyDiscountPhone extends Phone {
             return regularAmount.times(call.getDuration().getSeconds() / getSeconds().getSeconds());
         }
     }
-
-    @Override
-    protected Money afterCalculated(Money fee) {
-        return fee;
-    }
 }

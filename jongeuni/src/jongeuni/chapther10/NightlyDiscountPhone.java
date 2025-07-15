@@ -5,7 +5,7 @@ import jongeuni.chapther02.Money;
 import lombok.Getter;
 
 @Getter
-public class NightlyDiscountPhone extends AbstractPhone {
+public class NightlyDiscountPhone extends Phone {
     private static final int LATE_NIGHT_HOUR = 22;
 
     private Money nightlyAmount;
@@ -13,7 +13,8 @@ public class NightlyDiscountPhone extends AbstractPhone {
     private Duration seconds;
 
 
-    public NightlyDiscountPhone(Money nightlyAmount, Money regularAmount, Duration seconds) {
+    public NightlyDiscountPhone(Money nightlyAmount, Money regularAmount, Duration seconds, double taxRate) {
+        super(taxRate);
         this.regularAmount = regularAmount;
         this.nightlyAmount = nightlyAmount;
         this.seconds = seconds;

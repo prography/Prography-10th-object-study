@@ -1,8 +1,6 @@
 package jongeuni.chapther10;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 import jongeuni.chapther02.Money;
 import lombok.Getter;
 

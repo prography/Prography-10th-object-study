@@ -1,25 +1,22 @@
 package jongeuni.chapther10;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import jongeuni.chapther02.Money;
-import lombok.Getter;
 
-@Getter
-public class Phone extends AbstractPhone{
+public abstract class Phone {
+    private List<Call> calls = new ArrayList<Call>();
 
-    private Money amount;
-    private Duration seconds;
+    public Money calculateFee() {
 
-    public Phone(Money amount, Duration seconds) {
-        this.amount = amount;
-        this.seconds = seconds;
+        Money result = Money.ZERO;
+
+        for(Call call : calls) {
+            result = result.plus(calculateCallFee(call));
+        }
+
+        return result;
     }
 
-
-    @Override
-    protected Money calculateCallFee(Call call) {
-        return amount.times(call.getDuration().getSeconds() / seconds.getSeconds());
-    }
+    abstract protected Money calculateCallFee(Call call);
 }

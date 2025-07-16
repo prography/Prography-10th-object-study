@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caaa44b6-e34c-415c-a44d-7c757e5b44c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/call/BasicRatePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/BasicRatePolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/call/NightlyDiscountPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/NightlyDiscountPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/call/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/call/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +108,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lecture" />
       <recent name="responsibility" />
       <recent name="data" />
     </key>
@@ -240,7 +239,10 @@
       <workItem from="1749001904142" duration="1000" />
       <workItem from="1749029502572" duration="11766000" />
       <workItem from="1750164094740" duration="4635000" />
-      <workItem from="1752389100414" duration="2078000" />
+      <workItem from="1752389100414" duration="2807000" />
+      <workItem from="1752587453237" duration="4101000" />
+      <workItem from="1752636812944" duration="620000" />
+      <workItem from="1752649399661" duration="4062000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import jongeuni.chapter02.Money;
-import jongeuni.chapter11.RatePolicy;
+import jongeuni.chapter14.RatePolicy;
 
 public class Phone {
     // 이것이 합성

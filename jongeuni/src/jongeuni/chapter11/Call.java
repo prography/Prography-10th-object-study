@@ -2,6 +2,7 @@ package jongeuni.chapter11;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

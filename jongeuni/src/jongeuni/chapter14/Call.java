@@ -3,6 +3,7 @@ package jongeuni.chapter14;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
 import lombok.Getter;
 
 @Getter
@@ -25,4 +26,7 @@ public class Call {
         return interval.getTo();
     }
 
+    public List<DateTimeInterval> splitByDay() {
+        return interval.splitByDay();
+    }
 }

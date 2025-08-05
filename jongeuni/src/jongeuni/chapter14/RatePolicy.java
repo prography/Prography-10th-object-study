@@ -1,7 +1,6 @@
-package jongeuni.chapter11;
+package jongeuni.chapter14;
 
 import jongeuni.chapter02.Money;
-import jongeuni.chapter14.Phone;
 
 public interface RatePolicy {
     Money calculateFee(Phone phone);

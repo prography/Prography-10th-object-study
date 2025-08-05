@@ -2,8 +2,8 @@ package jongeuni.chapter14;
 
 import java.time.Duration;
 import jongeuni.chapter02.Money;
-import jongeuni.chapter11.BasicRatePolicy;
-import jongeuni.chapter11.Call;
+import jongeuni.chapter14.BasicRatePolicy;
+import jongeuni.chapter14.Call;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

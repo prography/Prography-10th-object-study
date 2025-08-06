@@ -23,5 +23,7 @@ public class Phone {
         return Collections.unmodifiableList(calls);
     }
 
-
+    public void call(Call call) {
+        calls.add(call);
+    }
 }

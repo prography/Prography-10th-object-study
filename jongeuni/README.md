@@ -1,40 +1,9 @@
-# Prography-10th-object-study
-10기 [오브젝트](https://product.kyobobook.co.kr/detail/S000001766367)를 학습하는 스터디입니다.
+### 관련 포스팅
+[오브젝트 스터디 들어가며](https://yatta.tistory.com/entry/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EB%93%9C%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84-%EB%93%A4%EC%96%B4%EA%B0%80%EB%A9%B0)
 
-## 📌 진행 방식
-- 기본적으로 2챕터씩 진행
-- 책의 난이도나 스터디 구성원의 일정에 따라 챕터 수는 유동적으로 조정될 수 있음
-- 책의 모든 코드와 테스트 코드(TDD 권장)를 직접 작성
-- 각자 공부한 내용을 스터디 전까지 소스 코드나 README.md로 정리한 후, 스터디 시간에 공유
-- 스터디에서 토론하고 싶은 주제가 있다면 이슈로 생성
-- 스터디는 격주 수 21:00에 진행
-
-## 📁 Project Structure
-```
-│
-├─ Prography-10th-object-study
-│     │
-│     ├─ [github-username]      # 개인 디렉토리 (깃허브 아이디와 동일한 이름)
-│     │    ├─ 오브젝트 코드/        # 책의 예제 코드 및 개인 구현
-│     │    └─ 책 정리 REAMDE.md   # 학습 정리 (요약, 인사이트 등)
-│     │   
-│     ├─ .. 이하 동일
-│
-│ `
-```
-
-## 📝 제출 가이드
-1. clone 혹은 remote 명령어 등을 이용해 리모트 리포지토리와 연결합니다.
-2. [자신의 github 아이디]와 동일한 이름의 branch로 switch하여 작업합니다. 
-3. 최초 작업 시 본인의 브랜치명과 동일한 이름의 디렉토리를 만듭니다. (위 프로젝트 구조 참고)
-4. 작업 완료 이후, 리모트 리포지토리의 [자신의 github 아이디]와 동일한 이름의 브랜치에 push 합니다. 
-5. 과제 제출 기한에 맞춰 main branch로 PR을 날립니다. 
-6. 스터디 리포지토리의 메인 브랜치명은 main입니다. 
-7. PR은 [본인 이름] N주차 미션 제출합니다.의 제목으로 작성해주시면 됩니다.
-
-### 참고 사항
-- 본인 브랜치는 순수하게 본인 작업물만 남게 해주세요
-- 따라서 본인 브랜치와 `develop` 브랜치를 직접 merge하지 않도록 주의해주세요.
-
-## ⏰ 제출 마감 기한 
-매주 스터디 시작 시간 전까지 PR을 보내주시면 됩니다.
+[1챕터](https://yatta.tistory.com/entry/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%B1%95%ED%84%B0-01-%EA%B0%9D%EC%B2%B4-%EC%84%A4%EA%B3%84?category=1104866)
+[2챕터](https://yatta.tistory.com/entry/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%B1%95%ED%84%B0-02-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D?category=1104866)
+...
+[12챕터](https://yatta.tistory.com/entry/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%B1%95%ED%84%B0-12-%EB%8B%A4%ED%98%95%EC%84%B1-self%EC%99%80-super%EC%9D%98-%EC%98%88%EC%8B%9C)
+[13챕터](https://yatta.tistory.com/entry/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%B1%95%ED%84%B0-13-%EC%84%9C%EB%B8%8C-%ED%81%B4%EB%9E%98%EC%8B%B1%EA%B3%BC-%EC%84%9C%EB%B8%8C-%ED%83%80%EC%9D%B4%ED%95%91)
+[14챕터](https://yatta.tistory.com/entry/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%B1%95%ED%84%B0-14-%EC%9D%BC%EA%B4%80%EC%84%B1-%EC%9E%88%EB%8A%94-%ED%98%91%EB%A0%A5)
